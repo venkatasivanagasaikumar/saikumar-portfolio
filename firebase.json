@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [
+      { "source": "**/*.@(mp4|webm|jpg|webp|png|svg|woff2)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+    ]
+  }
+}
