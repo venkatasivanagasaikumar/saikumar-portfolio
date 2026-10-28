@@ -1,0 +1,10 @@
+{
+  "name": "sai-kumar-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve site",
+    "preview": "npx --yes serve site",
+    "set-url": "bash scripts/set-site-url.sh"
+  }
+}
